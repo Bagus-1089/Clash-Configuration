@@ -316,6 +316,10 @@ proxies:
       host: 'cf.bagusfast.workers.dev'
 proxy-groups:
 - name: 'Bagus'
+  type: 'select'
+  proxies:
+  - 'Ping Server'
+- name: 'Ping Server'
   type: 'url-test'
   url: 'http://www.google.com'
   interval: 2
