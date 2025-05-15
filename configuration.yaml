@@ -14,7 +14,7 @@ dns:
   listen: '0.0.0.0:1053'
   ipv6: false
   nameserver:
-  - 'https://cloudflare-dns.com/dns-query
+  - 'https://cloudflare-dns.com/dns-query'
   default-nameserver:
   - 'system'
 port: 7890
