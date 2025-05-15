@@ -44,6 +44,376 @@ proxies:
     path: '/146.235.18.248:45137'
     headers:
       host: 'cf.bagusfast.workers.dev'
+- name: 'Server 2'
+  type: 'vless'
+  server: 'img.email2.vidio.com'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 3'
+  type: 'vless'
+  server: 'img.email3.vidio.com'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 4'
+  type: 'vless'
+  server: '104.17.155.243'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 4'
+  type: 'vless'
+  server: '104.17.155.243'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 4'
+  type: 'vless'
+  server: '104.17.155.243'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 4'
+  type: 'vless'
+  server: '104.17.155.243'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 4'
+  type: 'vless'
+  server: '104.17.155.243'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 4'
+  type: 'vless'
+  server: '104.17.155.243'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 5'
+  type: 'vless'
+  server: '104.17.156.243'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 6'
+  type: 'vless'
+  server: '104.17.157.243'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 7'
+  type: 'vless'
+  server: '104.17.158.243'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 8'
+  type: 'vless'
+  server: '104.17.159.243'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 9'
+  type: 'vless'
+  server: 'quiz.vidio.com'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 10'
+  type: 'vless'
+  server: 'quiz.int.vidio.com'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 11'
+  type: 'vless'
+  server: '104.22.4.240'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 12'
+  type: 'vless'
+  server: '104.22.5.240'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 13'
+  type: 'vless'
+  server: '172.67.5.14'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 14'
+  type: 'vless'
+  server: 'quiz.staging.vidio.com'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 15'
+  type: 'vless'
+  server: '104.20.9.155'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 16'
+  type: 'vless'
+  server: '104.20.10.155'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 17'
+  type: 'vless'
+  server: 'support.vidio.com'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 18'
+  type: 'vless'
+  server: '162.159.140.147'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+- name: 'Server 19'
+  type: 'vless'
+  server: '172.66.0.145'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+proxy-groups:
+- name: 'Bagus'
+  type: 'url-test'
+  url: 'http://www.google.com
+  interval: 2
+  proxies:
+  - 'Server 1'
+  - 'Server 2'
+  - 'Server 3'
+  - 'Server 4'
+  - 'Server 5'
+  - 'Server 6'
+  - 'Server 7'
+  - 'Server 8'
+  - 'Server 9'
+  - 'Server 10'
+  - 'Server 11'
+  - 'Server 12'
+  - 'Server 13'
+  - 'Server 14'
+  - 'Server 15'
+  - 'Server 16'
+  - 'Server 17'
+  - 'Server 18'
+  - 'Server 19'
 rules:
 - 'DOMAIN,img.email1.vidio.com,DIRECT'
 - 'DOMAIN,img.email2.vidio.com,DIRECT'
@@ -64,3 +434,4 @@ rules:
 - 'DOMAIN,support.vidio.com,DIRECT'
 - 'IP-CIDR,162.159.140.147/32,DIRECT'
 - 'IP-CIDR,172.66.0.145/32,DIRECT'
+- 'MATCH,Bagus'
