@@ -5,7 +5,7 @@ log-level: 'error'
 ipv6: false
 external-controller: '0.0.0.0:9090'
 secret: 'bagus'
-external-ui-url: 'https://d.metacubex.one'
+external-ui: 'ui'
 unified-delay: true
 tcp-concurrent: true
 dns:
@@ -13,8 +13,6 @@ dns:
   listen: '0.0.0.0:1053'
   ipv6: false
   nameserver:
-  - 'https://cloudflare-dns.com/dns-query'
-  default-nameserver:
   - 'system'
 port: 7890
 socks-port: 7891
@@ -320,8 +318,9 @@ proxy-groups:
   - 'Ping Server'
 - name: 'Ping Server'
   type: 'url-test'
-  url: 'http://www.google.com'
+  url: 'http://quiz.vidio.com'
   interval: 2
+  tolerance: 50
   proxies:
   - 'Server 1'
   - 'Server 2'
