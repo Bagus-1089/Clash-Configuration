@@ -1,0 +1,66 @@
+allow-lan: true
+bind-address: '0.0.0.0'
+mode: 'rule'
+log-level: 'error'
+ipv6: false
+external-controller: '0.0.0.0:9090'
+secret: 'bagus'
+external-ui-url: 'https://d.metacubex.one'
+unified-delay: true
+tcp-concurrent: true
+dns:
+  enable: true
+  respect-rules: true
+  listen: '0.0.0.0:1053'
+  ipv6: false
+  nameserver:
+    - 'https://cloudflare-dns.com/dns-query
+  default-nameserver:
+    - 'system'
+port: 7890
+socks-port: 7891
+mixed-port: 7892
+redir-port: 7893
+tproxy-port: 7894
+tun:
+  enable: true
+  stack: 'system'
+  auto-route: true
+  auto-detect-interface: true
+  mtu: 1500
+proxies:
+- name: 'Server 1'
+  type: 'vless'
+  server: 'img.email1.vidio.com'
+  port: 80
+  udp: true
+  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
+  packet-encoding: 'xudp'
+  tls: false
+  alpn:
+  - 'http/1.1'
+  network: 'ws'
+  ws-opts:
+    path: '/146.235.18.248:45137'
+    headers:
+      host: 'cf.bagusfast.workers.dev'
+rules:
+- 'DOMAIN,img.email1.vidio.com,DIRECT'
+- 'DOMAIN,img.email2.vidio.com,DIRECT'
+- 'DOMAIN,img.email3.vidio.com,DIRECT'
+- 'IP-CIDR,104.17.155.243/32,DIRECT'
+- 'IP-CIDR,104.17.156.243/32,DIRECT'
+- 'IP-CIDR,104.17.157.243/32,DIRECT'
+- 'IP-CIDR,104.17.158.243/32,DIRECT'
+- 'IP-CIDR,104.17.159.243/32,DIRECT'
+- 'DOMAIN,quiz.vidio.com,DIRECT'
+- 'DOMAIN,quiz.int.vidio.com,DIRECT'
+- 'IP-CIDR,104.22.4.240/32,DIRECT'
+- 'IP-CIDR,104.22.5.240/32,DIRECT'
+- 'IP-CIDR,172.67.5.14/32,DIRECT'
+- 'DOMAIN,quiz.staging.vidio.com,DIRECT'
+- 'IP-CIDR,104.20.9.155/32,DIRECT'
+- 'IP-CIDR,104.20.10.155/32,DIRECT'
+- 'DOMAIN,support.vidio.com,DIRECT'
+- 'IP-CIDR,162.159.140.147/32,DIRECT'
+- 'IP-CIDR,172.66.0.145/32,DIRECT'
