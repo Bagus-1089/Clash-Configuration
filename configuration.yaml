@@ -14,7 +14,8 @@ dns:
   listen: 0.0.0.0:1053
   ipv6: false
   nameserver:
-  - system
+  - https://cloudflare-dns.com/dns-query
+  - 1.1.1.1
 port: 7890
 socks-port: 7891
 mixed-port: 7892
@@ -27,99 +28,9 @@ tun:
   auto-detect-interface: true
   mtu: 1500
 proxies:
-- name: Server 1
-  type: vless
-  server: img.email1.vidio.com
-  port: 80
-  udp: true
-  uuid: e993dc08-05f4-48eb-b9ee-bce7aabe1112
-  packet-encoding: xudp
-  tls: false
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /146.235.18.248:45137
-    headers:
-      host: cf.bagusfast.workers.dev
-- name: Server 2
-  type: vless
-  server: img.email2.vidio.com
-  port: 80
-  udp: true
-  uuid: e993dc08-05f4-48eb-b9ee-bce7aabe1112
-  packet-encoding: xudp
-  tls: false
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /146.235.18.248:45137
-    headers:
-      host: cf.bagusfast.workers.dev
-- name: Server 3
-  type: vless
-  server: img.email3.vidio.com
-  port: 80
-  udp: true
-  uuid: e993dc08-05f4-48eb-b9ee-bce7aabe1112
-  packet-encoding: xudp
-  tls: false
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /146.235.18.248:45137
-    headers:
-      host: cf.bagusfast.workers.dev
-- name: Server 4
+- name: Server
   type: vless
   server: quiz.vidio.com
-  port: 80
-  udp: true
-  uuid: e993dc08-05f4-48eb-b9ee-bce7aabe1112
-  packet-encoding: xudp
-  tls: false
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /146.235.18.248:45137
-    headers:
-      host: cf.bagusfast.workers.dev
-- name: Server 5
-  type: vless
-  server: quiz.int.vidio.com
-  port: 80
-  udp: true
-  uuid: e993dc08-05f4-48eb-b9ee-bce7aabe1112
-  packet-encoding: xudp
-  tls: false
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /146.235.18.248:45137
-    headers:
-      host: cf.bagusfast.workers.dev
-- name: Server 6
-  type: vless
-  server: quiz.staging.vidio.com
-  port: 80
-  udp: true
-  uuid: e993dc08-05f4-48eb-b9ee-bce7aabe1112
-  packet-encoding: xudp
-  tls: false
-  alpn:
-  - http/1.1
-  network: ws
-  ws-opts:
-    path: /146.235.18.248:45137
-    headers:
-      host: cf.bagusfast.workers.dev
-- name: Server 7
-  type: vless
-  server: support.vidio.com
   port: 80
   udp: true
   uuid: e993dc08-05f4-48eb-b9ee-bce7aabe1112
@@ -140,27 +51,12 @@ proxy-groups:
 - name: Ping Server
   type: url-test
   url: http://quiz.vidio.com
-  interval: 90
-  tolerance: 50
+  interval: 180
+  tolerance: 100
   proxies:
-  - Server 1
-  - Server 2
-  - Server 3
-  - Server 4
-  - Server 5
-  - Server 6
-  - Server 7
+  - Server
 rules:
-- IP-CIDR,104.17.155.243/32,DIRECT
-- IP-CIDR,104.17.156.243/32,DIRECT
-- IP-CIDR,104.17.157.243/32,DIRECT
-- IP-CIDR,104.17.158.243/32,DIRECT
-- IP-CIDR,104.17.159.243/32,DIRECT
 - IP-CIDR,104.22.4.240/32,DIRECT
 - IP-CIDR,104.22.5.240/32,DIRECT
 - IP-CIDR,172.67.5.14/32,DIRECT
-- IP-CIDR,104.20.9.155/32,DIRECT
-- IP-CIDR,104.20.10.155/32,DIRECT
-- IP-CIDR,162.159.140.147/32,DIRECT
-- IP-CIDR,172.66.0.145/32,DIRECT
 - MATCH,Bagus
