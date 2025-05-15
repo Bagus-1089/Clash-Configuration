@@ -89,81 +89,6 @@ proxies:
     path: '/146.235.18.248:45137'
     headers:
       host: 'cf.bagusfast.workers.dev'
-- name: 'Server 4'
-  type: 'vless'
-  server: '104.17.155.243'
-  port: 80
-  udp: true
-  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
-  packet-encoding: 'xudp'
-  tls: false
-  alpn:
-  - 'http/1.1'
-  network: 'ws'
-  ws-opts:
-    path: '/146.235.18.248:45137'
-    headers:
-      host: 'cf.bagusfast.workers.dev'
-- name: 'Server 4'
-  type: 'vless'
-  server: '104.17.155.243'
-  port: 80
-  udp: true
-  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
-  packet-encoding: 'xudp'
-  tls: false
-  alpn:
-  - 'http/1.1'
-  network: 'ws'
-  ws-opts:
-    path: '/146.235.18.248:45137'
-    headers:
-      host: 'cf.bagusfast.workers.dev'
-- name: 'Server 4'
-  type: 'vless'
-  server: '104.17.155.243'
-  port: 80
-  udp: true
-  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
-  packet-encoding: 'xudp'
-  tls: false
-  alpn:
-  - 'http/1.1'
-  network: 'ws'
-  ws-opts:
-    path: '/146.235.18.248:45137'
-    headers:
-      host: 'cf.bagusfast.workers.dev'
-- name: 'Server 4'
-  type: 'vless'
-  server: '104.17.155.243'
-  port: 80
-  udp: true
-  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
-  packet-encoding: 'xudp'
-  tls: false
-  alpn:
-  - 'http/1.1'
-  network: 'ws'
-  ws-opts:
-    path: '/146.235.18.248:45137'
-    headers:
-      host: 'cf.bagusfast.workers.dev'
-- name: 'Server 4'
-  type: 'vless'
-  server: '104.17.155.243'
-  port: 80
-  udp: true
-  uuid: 'e993dc08-05f4-48eb-b9ee-bce7aabe1112'
-  packet-encoding: 'xudp'
-  tls: false
-  alpn:
-  - 'http/1.1'
-  network: 'ws'
-  ws-opts:
-    path: '/146.235.18.248:45137'
-    headers:
-      host: 'cf.bagusfast.workers.dev'
 - name: 'Server 5'
   type: 'vless'
   server: '104.17.156.243'
@@ -392,7 +317,7 @@ proxies:
 proxy-groups:
 - name: 'Bagus'
   type: 'url-test'
-  url: 'http://www.google.com
+  url: 'http://www.google.com'
   interval: 2
   proxies:
   - 'Server 1'
