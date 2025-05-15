@@ -30,7 +30,7 @@ tun:
 proxies:
 - name: Server
   type: vless
-  server: quiz.vidio.com
+  server: 104.22.4.240
   port: 80
   udp: true
   uuid: e993dc08-05f4-48eb-b9ee-bce7aabe1112
@@ -50,13 +50,11 @@ proxy-groups:
   - Ping Server
 - name: Ping Server
   type: url-test
-  url: http://quiz.vidio.com
+  url: http://104.22.4.240
   interval: 180
   tolerance: 100
   proxies:
   - Server
 rules:
 - IP-CIDR,104.22.4.240/32,DIRECT
-- IP-CIDR,104.22.5.240/32,DIRECT
-- IP-CIDR,172.67.5.14/32,DIRECT
 - MATCH,Bagus
